@@ -1,7 +1,7 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/*body {*/
+  /*padding: 50px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+/*}*/
 
 a {
   color: #00B7FF;
@@ -10,7 +10,7 @@ a {
 #promo {
   text-align:center;
   padding:40px;
-  /*background:url(../../assets/img/dc44939af2d3302f26260d3f681cc4a9.jpg);*/
+  background:url(../images/dc44939af2d3302f26260d3f681cc4a9.jpg);
   background-size:cover;
 }
 
