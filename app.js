@@ -4,7 +4,10 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const compression = require('compression');
 const app = express();
+
+app.use(compression());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
