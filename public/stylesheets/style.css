@@ -10,6 +10,7 @@ a {
 #promo {
   text-align:center;
   padding:40px;
+  padding-top: 90px;
   background:url(../images/dc44939af2d3302f26260d3f681cc4a9.jpg);
   background-size:cover;
 }
@@ -28,18 +29,6 @@ a {
   margin:auto;
 }
 
-@media (max-width:1199px) {
-  #promo .jumbotron {
-    padding:20px;
-  }
-}
-
-@media (max-width:1199px) {
-  #promo {
-    padding:20px;
-  }
-}
-
 #logo {
   max-height:42px;
   margin-right:10px;
@@ -49,4 +38,18 @@ a {
 
 .img-thumbnail, .thumbnail {
   text-align:left;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+  height:auto;
 }
