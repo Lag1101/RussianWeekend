@@ -41,7 +41,7 @@ a {
 }
 
 .navbar-brand {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .navbar-brand>img {

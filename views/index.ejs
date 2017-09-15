@@ -7,24 +7,20 @@
 </head>
 <body>
 <% include nav.ejs %>
-<div class="section">
-    <% include service.ejs %>
+
+<div id="promo">
+    <div class="jumbotron">
+        <h1>Easy steps to start journey:</h1>
+        <p>1) Select itinerary just click here.
+            <br />2) Add to basket.
+            <br />3) Choose date.
+            <br />4) Check out.</p>
+        <p><a class="btn btn-default" role="button" href="#">Start </a></p>
+    </div>
 </div>
-
-
 </body>
 </html>
-
 
 <link rel="stylesheet" href="stylesheets/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('.carousel').on('slide.bs.carousel', function (e) {
-            var nextH = $(e.relatedTarget).height();
-            $(this).find('div.active').parent().animate({ height: nextH }, 500);
-        });
-    });
-</script>

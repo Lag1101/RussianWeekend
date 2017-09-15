@@ -17,9 +17,15 @@ Catalog.Load("./public/data", function(err, catalog) {
 
     catalog.makeRelative("./public");
 
+
+    router.get('/', function(req, res, next) {
+        res.render('index', {
+            services: catalog.services
+        });
+    });
     catalog.services.forEach(function (service) {
         router.get('/' + service.id, function(req, res, next) {
-            res.render('index', {
+            res.render('service_page', {
                 services: catalog.services,
                 service: service
             });
